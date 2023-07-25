@@ -6,7 +6,7 @@ lettersArray.forEach((letter) => {
   let letterElement = `<span class="letter-box">${letter}</span>`;
   lettersContainer.innerHTML += letterElement;
 });
-const dataFile = "./data.json";
+const dataFile = "data.json";
 async function fetchData() {
   let data = await fetch(dataFile);
   try {

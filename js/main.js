@@ -8,7 +8,7 @@ lettersArray.forEach((letter) => {
 });
 
 async function fetchData() {
-  let data = await fetch("/js/data.json");
+  let data = await fetch("js/data.json");
   try {
     data = await data.json();
   } catch {

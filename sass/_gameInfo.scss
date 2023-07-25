@@ -1,0 +1,26 @@
+body {
+  .container {
+    .game-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 20px;
+      }
+      .mistakes {
+        font-weight: bold;
+        font-size: 18px;
+        span {
+          color: slateblue;
+        }
+      }
+      .category {
+        font-weight: bold;
+        text-transform: capitalize;
+        span {
+          color: slateblue;
+        }
+      }
+    }
+  }
+}

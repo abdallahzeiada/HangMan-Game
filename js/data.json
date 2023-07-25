@@ -1,0 +1,8 @@
+{
+  "programming": ["c", "python", "javascript", "php", "java", "dart", "go"],
+  "countries": ["egypt", "qatar", "syria", "bahrain", "iraq", "yemen"],
+  "movies": ["intersteller", "avengers", "tenet", "iron man", "avatar"],
+  "fruits": ["apple", "banana", "orange", "mangoes", "lemon", "water mellon"],
+  "sports": ["football", "basketball", "volleyball", "handball"],
+  "animals": ["dog", "cat", "rabbit", "lion", "tigar"]
+}

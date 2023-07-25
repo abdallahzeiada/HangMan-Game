@@ -6,14 +6,13 @@ lettersArray.forEach((letter) => {
   let letterElement = `<span class="letter-box">${letter}</span>`;
   lettersContainer.innerHTML += letterElement;
 });
-
+const dataFile = "./data.json";
 async function fetchData() {
-  let data = await fetch("./data.json");
+  let data = await fetch(dataFile);
   try {
     data = await data.json();
   } catch {
     console.log("Error");
-    data = null;
   }
   //Generate Random Data
   let randomCategory = Math.floor(Math.random() * Object.keys(data).length);

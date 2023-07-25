@@ -1,8 +1,36 @@
 {
-  "programming": ["c", "python", "javascript", "php", "java", "dart", "go"],
-  "countries": ["egypt", "qatar", "syria", "bahrain", "iraq", "yemen"],
-  "movies": ["intersteller", "avengers", "tenet", "iron man", "avatar"],
-  "fruits": ["apple", "banana", "orange", "mangoes", "lemon", "water mellon"],
-  "sports": ["football", "basketball", "volleyball", "handball"],
-  "animals": ["dog", "cat", "rabbit", "lion", "tigar"]
+  "fruits": ["apple", "banana", "orange", "kiwi", "mango"],
+  "vegetables": ["carrot", "broccoli", "spinach", "lettuce", "celery"],
+  "meats": ["chicken", "beef", "pork", "fish", "tofu"],
+  "dairy": ["milk", "cheese", "yogurt", "butter", "sour cream"],
+  "colors": ["red", "green", "blue", "yellow", "orange", "purple"],
+  "sizes": ["small", "medium", "large", "extra-large", "jumbo"],
+  "toppings": [
+    "pepperoni",
+    "mushrooms",
+    "sausage",
+    "onions",
+    "olives",
+    "bacon",
+    "extra cheese"
+  ],
+  "countries": ["USA", "Canada", "Mexico", "Brazil", "France", "Germany"],
+  "cities": [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Miami",
+    "Houston",
+    "Philadelphia"
+  ],
+  "sports": ["football", "basketball", "baseball", "hockey", "soccer", "golf"],
+  "music": ["rock", "pop", "classical", "jazz", "country", "metal"],
+  "books": [
+    "fiction",
+    "non-fiction",
+    "biographies",
+    "history",
+    "science fiction",
+    "fantasy"
+  ]
 }

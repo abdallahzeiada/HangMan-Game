@@ -23,7 +23,8 @@ async function fetchData() {
   let chosenWordIndex = Math.floor(
     Math.random() * randomCategoryValueAraay.length
   );
-  let chosenWordValue = randomCategoryValueAraay[chosenWordIndex];
+  let chosenWordValue = randomCategoryValueAraay[chosenWordIndex].toLowerCase()
+  console.log(chosenWordValue)
   // Create Spans of Letters Guess Container
   let mistakes = document.querySelector(".mistakes span");
   let win = "";
